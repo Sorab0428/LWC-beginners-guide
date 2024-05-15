@@ -15,7 +15,7 @@ Lightning Web Components (LWC) represents Salesforce's innovative approach to li
 
 #### 1.Install Java JDK
 
-The Apex language server is provided as part of the Salesforce Apex extension for VS Code and depends on the Java Development Kit (JDK). It requires installing JDK version 17 (recommended).
+The Apex language server is provided as part of the Salesforce Apex extension for VS Code and depends on the Java Development Kit (JDK). It requires installing JDK version 17 (recommended).  
 [Java Setup Guide](https://developer.salesforce.com/tools/vscode/en/vscode-desktop/java-setup?_ga=2.25652349.1321670844.1714956482-1049736365.1714209840)
 
 #### 2.Install Salesforce CLI
@@ -109,7 +109,7 @@ export default class simple extends LightningElement {
    [XML Configuration File Elements](https://developer.salesforce.com/docs/platform/lwc/guide/reference-configuration-tags?-ga=2.24250490.1321670844.1714956482-1049736365.1714209840.html)
 
 2. Many basic templates for Lightning Web Components provided by Salesforce  
-   [Built-in Lightning Component Modules](https://developer.salesforce.com/docs/component-library/overview/components)
+   [Built-in Lightning Component Modules](https://developer.salesforce.com/docs/component-library/overview/components)  
    _Includes Aura Components and Lightning Web Components. Use the filter options: Click on Filters → Programming Models → Lightning Web Components._
 
 ## Connect Visual Studio Code to Salesforce Organization
