@@ -1,0 +1,14 @@
+<template>
+    <!-- lightning-card is a built-in template -->
+    <lightning-card lwc:if={ready}>
+      <div id="display" class="slds-m-around_medium">
+        <!-- Use curly braces to access variables from JS -->
+        <div>Name: {name}</div>
+        <div>Description: {description}</div>
+        <lightning-badge label={tag1}></lightning-badge>
+        <lightning-badge label={tag2}></lightning-badge>
+        <lightning-badge label={tag3}></lightning-badge>
+        <div><img src={pictureUrl} /></div>
+      </div>
+    </lightning-card>
+  </template>
